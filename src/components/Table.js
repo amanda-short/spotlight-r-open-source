@@ -21,7 +21,7 @@ const App = () => (
       <Cell dataKey="first_name" />
     </Column>
 
-    <Column width={100} sortable resizable>
+    <Column width={300} sortable resizable>
       <HeaderCell>Email</HeaderCell>
       <Cell>
         {(rowData) => {
@@ -31,8 +31,8 @@ const App = () => (
     </Column>
 
     <Column width={100} resizable>
-      <HeaderCell>Avatar</HeaderCell>
-      <ImageCell dataKey="avatar" />
+      <HeaderCell>Favorite Color</HeaderCell>
+      <ImageCell dataKey="favorite_color" />
     </Column>
   </Table>
 );
