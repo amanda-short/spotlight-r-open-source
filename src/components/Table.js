@@ -10,7 +10,7 @@ const ImageCell = ({ rowData, dataKey, ...rest }) => (
 );
 
 const App = () => (
-  <Table data={userData} height={800}>
+  <Table class="bg-indigo-500 ..." data={userData} height={800}>
     <Column width={100} sortable fixed resizable>
       <HeaderCell>ID</HeaderCell>
       <Cell dataKey="id" />
